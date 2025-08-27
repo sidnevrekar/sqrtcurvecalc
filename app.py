@@ -1,5 +1,8 @@
 import math
 import streamlit as st
+st.set_page_config(
+    page_title="SQRT Curve",
+)
 st.header("Made By @Sid")
 st.title("SQRT Curve Calculator")
 
