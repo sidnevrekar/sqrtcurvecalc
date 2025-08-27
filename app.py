@@ -11,8 +11,8 @@ if score_input:
     try:
         score1, score2 = map(int, score_input.split("/"))
         rawscore = score1 / score2 * 100
-        percantagescore = (math.sqrt(score1) / math.sqrt(score2)) * 100
-        st.success(f" Inital Score: {rawscore:.2f}% | Curved Score: {percantagescore:.2f}%")
+        percentagescore = (math.sqrt(score1) / math.sqrt(score2)) * 100
+        st.success(f" Inital Score: {rawscore:.2f}% | Curved Score: {percentagescore:.2f}%")
     except:
         st.error("Invalid input. Use format 8/10.")
 
